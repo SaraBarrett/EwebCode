@@ -11,3 +11,4 @@ myLuckyNumber = 36+1;
 myLuckyNumber++;
 
 alert('o meu nome é '+myName+' e o meu número preferido é o '+myLuckyNumber);
+
