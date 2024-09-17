@@ -1,6 +1,6 @@
 // // alert("hello world");
 // let myName = 'Sara';
-let mySurname = 'Monteiro';
+// let mySurname = 'Monteiro';
 // alert('Sara');
 // alert(myName);
 // let courseName = 'Front end Developer';
@@ -16,4 +16,16 @@ let courseName = 'Front-end Developer';
 //indica o tamanho da variável courseName
 // alert('O tamanho de '+courseName+' são '+courseName.length+' caracteres.');
 
-alert(courseName.toUpperCase());
+// alert(courseName.toUpperCase());
+
+//com concatenação
+//alert('O nome deste curso é '+courseName+'!');
+
+//nova sintaxe
+//alert(`O nome deste curso é ${courseName}!`);
+
+// alert(Math.PI);
+
+let userName = prompt('qual é o seu nome?');
+
+console.log(userName);
