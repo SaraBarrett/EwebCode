@@ -18,14 +18,32 @@ let courseName = 'Front-end Developer';
 
 // alert(courseName.toUpperCase());
 
-//com concatenação
-//alert('O nome deste curso é '+courseName+'!');
+// //com concatenação
+// alert('O nome deste curso é '+courseName+'!');
 
 //nova sintaxe
-//alert(`O nome deste curso é ${courseName}!`);
+// alert(`O nome deste curso é ${courseName}!`);
 
 // alert(Math.PI);
 
-let userName = prompt('qual é o seu nome?');
+// let userName = prompt('qual é o seu nome?');
 
-console.log(userName);
+// console.log(userName);
+
+// let firstName = prompt('qual é o seu primeiro nome');
+// let surname = prompt('qual é o seu apelido');
+
+
+// alert(`Olá ${firstName} ${surname}!`);
+
+// let userAge = parseInt(prompt('qual é a tua idade?'));
+
+// if(userAge<18){
+//     console.log('és menor')
+// }else if(userAge == 18){
+//     console.log('acabaste de entrar na maioridade, parabéns')
+// }else{
+//     console.log('és maior')
+// }
+
+

@@ -16,3 +16,13 @@
 // let facialHair = word.slice(5,10).replace('o', 'e');
 
 // alert(facialHair);
+
+
+let weekDay = prompt('que dia é hoje?').toLowerCase();
+
+if(weekDay == 'sexta' || weekDay == 'sexta-feira' || weekDay == 'sexta feira'){
+    alert('yyay, sobrevivemos a mais uma semana');
+}else{
+    alert('força nisso');
+}
+
