@@ -46,12 +46,27 @@
 
 
 //pp44
-const airplaneSeats = [
-    ['Ruth', 'Anthony', 'Stevie'],
-    ['Amelia', 'Pedro', 'Maya'],
-    ['Xavier', 'Ananya', 'Luis'],
-    ['Luke', null, 'Deniz'],
-    ['Rin', 'Sakura', 'Francisco']
-    ];
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+//     ];
 
-airplaneSeats[3][1] = 'Sara';
+// airplaneSeats[3][1] = 'Sara';
+
+//pp 47
+
+let product = {
+    name : 'caneta',
+    inStock: true,
+    price: 1.99+'€',
+    colors: ['verde', 'vermelho', 'azul']
+};
+
+console.log('o preço é  '+product.price+' e a cor escolhida é '+product.colors[0]);
+product.price = 2.55+'€';
+
+product.inStock = false;
+console.log(product)
