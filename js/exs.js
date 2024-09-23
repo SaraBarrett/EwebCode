@@ -17,12 +17,20 @@
 
 // alert(facialHair);
 
+//ex slide 36 -1
+// let weekDay = prompt('que dia é hoje?').toLowerCase();
 
-let weekDay = prompt('que dia é hoje?').toLowerCase();
+// if(weekDay == 'sexta' || weekDay == 'sexta-feira' || weekDay == 'sexta feira'){
+//     alert('yyay, sobrevivemos a mais uma semana');
+// }else{
+//     alert('força nisso');
+// }
 
-if(weekDay == 'sexta' || weekDay == 'sexta-feira' || weekDay == 'sexta feira'){
-    alert('yyay, sobrevivemos a mais uma semana');
-}else{
-    alert('força nisso');
-}
+//ex slide 36 -2
+// let password = prompt('Introduza uma pass com pelo menos 6 caracteres');
 
+// if(password.length <6){
+//     alert('a pass é inválida!');
+// }else{
+//     alert('a pass é válida, podes seguir!');
+// }
