@@ -34,3 +34,24 @@
 // }else{
 //     alert('a pass é válida, podes seguir!');
 // }
+
+//pp 40
+// let planets = ['Mercurio', 'Venus', 'Terra','Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão'];
+
+// planets[3]='Marte';
+// planets.pop();
+// planets.unshift('Novo Planeta');
+
+// console.log(planets)
+
+
+//pp44
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+    ];
+
+airplaneSeats[3][1] = 'Sara';

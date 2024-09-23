@@ -47,29 +47,58 @@ let courseName = 'Front-end Developer';
 // }
 
 //declaração de variáveis
-let student1 = 'Duarte';
-let student2 = 'Vânia';
-let student3 = 'Bruno';
+// let student1 = 'Duarte';
+// let student2 = 'Vânia';
+// let student3 = 'Bruno';
 
-//declaração de um array com dados 
-let students = ['Duarte', 'Vânia', 'Bruno', 'Carla'];
+// //declaração de um array com dados 
+// let students = ['Duarte', 'Vânia', 'Bruno', 'Carla'];
 
-//declaração de um array vazio
-let studentTests = [];
+// //declaração de um array vazio
+// let studentTests = [];
 
-//imprimir na consola uma posição de variável
-console.log(student3[2]);
+// //imprimir na consola uma posição de variável
+// console.log(student3[2]);
 
-//imprimir na consola uma posição de um array
-console.log(students[1]);
+// //imprimir na consola uma posição de um array
+// console.log(students[1]);
 
-//imprimir na consola uma posição de um array
-console.log(students.length);
+// //imprimir na consola uma posição de um array
+// console.log(students.length);
 
-//assignar um novo dado numa posição específica do array
-students[3] = 'Ivo';
-students[students.length] = 'Patrícia';
-//adiciona ao fim do array
-students.push('Joana');
+// //assignar um novo dado numa posição específica do array
+// students[3] = 'Ivo';
+// students[students.length] = 'Patrícia';
+// //adiciona ao fim do array
+// students.push('Joana');
 
-console.log(students);
+// console.log(students);
+
+
+//nested arrays
+// const weekDays = [
+//     [[10, 11,12], 'Segunda Tarde'],
+//     'Terça', 
+//     'Quarta', 
+//     'Quinta', 
+//     'Sexta',
+//     ['Sábado Tarde', 'Sábado Noite']
+// ];
+
+// console.log(weekDays[0]);
+
+
+//objectos
+let courseDetails = {
+    name : 'Front End Developer',
+    hours: 950,
+    type: 'Reskilling',
+    place: 'São João da Madeira',
+    modules: ['JS', 'TAP', 'SQl', 'Algoritmia']
+}
+
+//console.log('o curso é do tipo '+courseDetails.type);
+console.log(courseDetails.modules[2]);
+courseDetails.modules.push('Wordpress');
+courseDetails.place = 'Online';
+console.log(courseDetails);
