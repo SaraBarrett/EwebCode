@@ -1,22 +1,22 @@
-// // alert("hello world");
-// let myName = 'Sara';
-// let mySurname = 'Monteiro';
-// alert('Sara');
-// alert(myName);
-// let courseName = 'Front end Developer';
+// alert("hello world");
+let myName = 'Sara';
+let mySurname = 'Monteiro';
+alert('Sara');
+alert(myName);
+let courseName = 'Front end Developer';
 
-// alert("olá "+mySurname);
+alert("olá "+mySurname);
 
-let courseName = 'Front-end Developer';
+// let courseName = 'Front-end Developer';
 
-//indica o que está na 5 posição da variável courseName
-// alert(courseName[5]);
+// indica o que está na 5 posição da variável courseName
+alert(courseName[5]);
 
 
 //indica o tamanho da variável courseName
-// alert('O tamanho de '+courseName+' são '+courseName.length+' caracteres.');
+alert('O tamanho de '+courseName+' são '+courseName.length+' caracteres.');
 
-// alert(courseName.toUpperCase());
+alert(courseName.toUpperCase());
 
 // //com concatenação
 // alert('O nome deste curso é '+courseName+'!');
@@ -89,16 +89,59 @@ let courseName = 'Front-end Developer';
 
 
 //objectos
-let courseDetails = {
-    name : 'Front End Developer',
-    hours: 950,
-    type: 'Reskilling',
-    place: 'São João da Madeira',
-    modules: ['JS', 'TAP', 'SQl', 'Algoritmia']
-}
+// let courseDetails = {
+//     name : 'Front End Developer',
+//     hours: 950,
+//     type: 'Reskilling',
+//     place: 'São João da Madeira',
+//     modules: ['JS', 'TAP', 'SQl', 'Algoritmia']
+// }
 
-//console.log('o curso é do tipo '+courseDetails.type);
-console.log(courseDetails.modules[2]);
-courseDetails.modules.push('Wordpress');
-courseDetails.place = 'Online';
-console.log(courseDetails);
+// //console.log('o curso é do tipo '+courseDetails.type);
+// console.log(courseDetails.modules[2]);
+// courseDetails.modules.push('Wordpress');
+// courseDetails.place = 'Online';
+// console.log(courseDetails);
+
+// alert('olá turma!');
+// alert('olá turma!');
+// alert('olá turma!');
+// alert('olá turma!');
+// alert('olá turma!');
+// alert('olá turma!');
+
+
+// for(let i=1; i<=6; i++){
+//     console.log(i,'olá turma');
+// }
+
+// console.log('saiu fora do ciclo')
+
+//uso de for para iterar um array
+
+// let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
+
+let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
+
+// console.log('melhor aluno: '+students[0]);
+// console.log('melhor aluno: '+students[1]);
+// console.log('melhor aluno: '+students[2]);
+// console.log('melhor aluno: '+students[3]);
+// console.log('melhor aluno: '+students[4]);
+// console.log('melhor aluno: '+students[5]);
+// console.log('melhor aluno: '+students[6]);
+// console.log('melhor aluno: '+students[7]);
+// console.log('melhor aluno: '+students[8]);
+
+// for(let i = 0; i<students.length; i++){
+//     console.log('melhor aluno: '+students[i]);
+// }
+
+//este ciclo percorre um array sem termos a necessidade de incrementar os indexs
+// console.log(students);
+// for(element of students){
+//     console.log(element);
+// }
+
+
+

@@ -58,15 +58,46 @@
 
 //pp 47
 
-let product = {
-    name : 'caneta',
-    inStock: true,
-    price: 1.99+'€',
-    colors: ['verde', 'vermelho', 'azul']
-};
+// let product = {
+//     name : 'caneta',
+//     inStock: true,
+//     price: 1.99+'€',
+//     colors: ['verde', 'vermelho', 'azul']
+// };
 
-console.log('o preço é  '+product.price+' e a cor escolhida é '+product.colors[0]);
-product.price = 2.55+'€';
+// console.log('o preço é  '+product.price+' e a cor escolhida é '+product.colors[0]);
+// product.price = 2.55+'€';
 
-product.inStock = false;
-console.log(product)
+// product.inStock = false;
+// console.log(product)
+
+//p52
+
+// for(let i=1; i<7; i++){
+//     console.log(i,'Da ba dee da ba daa');
+// }
+
+// for(let i= 25; i>4; i-=5){
+//     console.log(i);
+// }
+
+//pp55
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+// for(let i = 0; i<people.length; i++){
+//     console.log(people[i].toUpperCase());
+// }
+
+
+//pp59
+let shoppingList = [];
+
+let item = false;
+
+while(item != 'fim'){
+    shoppingList.push(item);
+    item = prompt('que item pretende comprar? Digite fim quando acabar!').toLowerCase().trim();
+}
+
+shoppingList.shift()
+console.log(shoppingList)
