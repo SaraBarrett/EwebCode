@@ -8,7 +8,7 @@
 
     <!-- isto referencia o ficheiro de JS de forma externa -->
     <!-- <script src="js/script.js"></script> -->
-    <script src="js/functions.js"></script>
+    <script src="js/functions.js" defer></script>
 
     <!-- isto referencia js de forma interna -->
     <!-- <script>
@@ -16,11 +16,16 @@
     </script>  -->
   </head>
   <body>
-    <button onclick="alertHello()" type="button">Olá sou um alerta</button>
+    <button onclick="printAlert('hello world!')" type="button">Olá sou um alerta</button>
 
     <hr />
 
-    <button type="button" onclick="printHeart()">Imprime um coração</button>
+    <button type="button" onclick="printAlert('<3')">
+      Imprime um coração
+    </button>
+
+    <button type="button" onclick="rant('odeio CSS')">CSS</button>
+    <button type="button" onclick="rant('odeio HTML')">HTML</button>
 
     <h3>Hello Turma de Front End</h3>
     <ul>
