@@ -90,14 +90,14 @@
 
 
 //pp59
-let shoppingList = [];
+// let shoppingList = [];
 
-let item = false;
+// let item = false;
 
-while(item != 'fim'){
-    shoppingList.push(item);
-    item = prompt('que item pretende comprar? Digite fim quando acabar!').toLowerCase().trim();
-}
+// while(item != 'fim'){
+//     shoppingList.push(item);
+//     item = prompt('que item pretende comprar? Digite fim quando acabar!').toLowerCase().trim();
+// }
 
-shoppingList.shift()
-console.log(shoppingList)
+// shoppingList.shift()
+// console.log(shoppingList)
