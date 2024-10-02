@@ -1,5 +1,6 @@
 
-
+let myVar = 'hello';
+let total = 0;
 // function alertHello(){
 //     alert('hello world!');
 // }
@@ -25,20 +26,19 @@ function rant(message){
     }
 }
 
-let media = calc(18, 18, '+')/2;
-
 function calc(num1, num2, op){
+    let total = 0;
     switch(op){
         case '+':
-        alert('o resultado é ' + (num1+num2));
+            total = num1+num2;
         break;
 
         case '*':
-        alert('o resultado é ' + (num1*num2));
+            total = num1*num2;
         break;
 
         case '-':
-            alert('o resultado é ' + (num1-num2));
+            return num1-num2;
             break;
 
         case '/':
@@ -47,7 +47,44 @@ function calc(num1, num2, op){
 
     }
 
+    return total;
+}
 
-   
+// let media = calc(15, 19, '+')/2;
+// alert(media);
+
+
+
+
+
+
+
+function tellMeYourNumbers(){
+
+    let umatentativa = prompt('num1!');
+    let duastentativa = prompt('num2!');
+
+    isSnakeEyes(umatentativa, duastentativa);
 
 }
+
+function isSnakeEyes(num1, num2){
+    if(num1 == 1 && num2==1){
+        alert('Yay, snake eyes');
+    }else{
+        alert('não são snake eyes');
+    }
+}
+
+
+function hellWorld(){
+    myVar = 'Hell world';
+   
+    
+    alert(myVar);
+    return myVar;
+}
+
+alert(myVar)
+
+
