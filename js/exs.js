@@ -44,7 +44,6 @@
 
 // console.log(planets)
 
-
 //pp44
 // const airplaneSeats = [
 //     ['Ruth', 'Anthony', 'Stevie'],
@@ -88,7 +87,6 @@
 //     console.log(people[i].toUpperCase());
 // }
 
-
 //pp59
 // let shoppingList = [];
 
@@ -101,3 +99,16 @@
 
 // shoppingList.shift()
 // console.log(shoppingList)
+
+//ex91
+
+const validUserNames = (usernames) => {
+  console.log("os nomes foram: ");
+  
+  for (myname of usernames) {
+    console.log(myname);
+  }
+
+  const validNames = usernames.filter((element) => element.length < 10);
+  return validNames;
+};

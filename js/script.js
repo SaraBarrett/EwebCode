@@ -52,7 +52,7 @@ alert(courseName.toUpperCase());
 // let student3 = 'Bruno';
 
 // //declaração de um array com dados 
-// let students = ['Duarte', 'Vânia', 'Bruno', 'Carla'];
+
 
 // //declaração de um array vazio
 // let studentTests = [];
@@ -121,7 +121,7 @@ alert(courseName.toUpperCase());
 
 // let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
 
-let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
+// let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
 
 // console.log('melhor aluno: '+students[0]);
 // console.log('melhor aluno: '+students[1]);
@@ -136,12 +136,12 @@ let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder'
 // for(let i = 0; i<students.length; i++){
 //     console.log('melhor aluno: '+students[i]);
 // }
-
+let students = ['Vânia', 'Ivo', 'André', 'Duarte', 'João', 'Ruben', 'Hélder', 'Ricardo', 'Joana','Patrícia', 'Francisco', 'Fábio', 'Lara', 'Mara'];
 //este ciclo percorre um array sem termos a necessidade de incrementar os indexs
-// console.log(students);
-// for(element of students){
-//     console.log(element);
-// }
+console.log(students);
+for(element of students){
+    console.log(element);
+}
 
 
 
