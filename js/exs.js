@@ -102,13 +102,38 @@
 
 //ex91
 
-const validUserNames = (usernames) => {
-  console.log("os nomes foram: ");
-  
-  for (myname of usernames) {
-    console.log(myname);
+// const validUserNames = (usernames) => {
+//   console.log("os nomes foram: ");
+
+//   for (myname of usernames) {
+//     console.log(myname);
+//   }
+
+//   const validNames = usernames.filter((element) => element.length < 10);
+//   return validNames;
+// };
+
+//ex 94
+//maneira super tradicional, sem funções js
+function allEvensT(numbers) {
+  let isEven = true;
+
+  for (element of numbers) {
+    if (element % 2 != 0) {
+      isEven = false;
+      return isEven;
+    }
   }
 
-  const validNames = usernames.filter((element) => element.length < 10);
-  return validNames;
-};
+  return isEven;
+}
+
+//sintaxe tradicional, compatibilidade total
+function allEvens(numbers) {
+  let evens = numbers.every((elem) => elem % 2 == 0);
+
+  return evens;
+}
+
+//nova sintaxe, atenção a compatibilidade de browsers e de funções da pp linguagem
+const allEvensNew = (numbers) => numbers.every((elem) => elem % 2 == 0);
